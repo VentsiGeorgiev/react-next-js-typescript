@@ -9,9 +9,14 @@ import './App.css'
 // import ExampleUseEffect from './hooks-tutorial/02-useEffect/02-useEffect-hook'
 // import MultipleUseEffect from './hooks-tutorial/02-useEffect/03-multiple-useEffect-hook'
 // import FetchData from './hooks-tutorial/02-useEffect/04-fetch-data-use-effect'
+import CleanUpFunction from './hooks-tutorial/02-useEffect/05-clean-up-function'
+
+// Conditional rendering
+// import CircuitOverview from './hooks-tutorial/03-conditional-rendering/02-circuit-overview'
+// import Toggle from './hooks-tutorial/03-conditional-rendering/03-toggle'
+
 
 function App() {
-
   return (
     <>
       <h1>React hooks</h1>
@@ -25,6 +30,11 @@ function App() {
       {/* <ExampleUseEffect /> */}
       {/* <MultipleUseEffect /> */}
       {/* <FetchData /> */}
+      <CleanUpFunction />
+
+      {/* Conditional rendering */}
+      {/* <CircuitOverview /> */}
+      {/* <Toggle /> */}
     </>
   )
 }
