@@ -10,11 +10,12 @@ import './App.css'
 // import MultipleUseEffect from './hooks-tutorial/02-useEffect/03-multiple-useEffect-hook'
 // import FetchData from './hooks-tutorial/02-useEffect/04-fetch-data-use-effect'
 import CleanUpFunction from './hooks-tutorial/02-useEffect/05-clean-up-function'
+import ToggleExample from './hooks-tutorial/04-custom-hook/01-toggle-example'
+import FetchUserData from './hooks-tutorial/04-custom-hook/02-fetch-data'
 
 // Conditional rendering
 // import CircuitOverview from './hooks-tutorial/03-conditional-rendering/02-circuit-overview'
 // import Toggle from './hooks-tutorial/03-conditional-rendering/03-toggle'
-
 
 function App() {
   return (
@@ -30,11 +31,13 @@ function App() {
       {/* <ExampleUseEffect /> */}
       {/* <MultipleUseEffect /> */}
       {/* <FetchData /> */}
-      <CleanUpFunction />
+      {/* <CleanUpFunction /> */}
 
       {/* Conditional rendering */}
       {/* <CircuitOverview /> */}
       {/* <Toggle /> */}
+      {/* <ToggleExample /> */}
+      <FetchUserData />
     </>
   )
 }
