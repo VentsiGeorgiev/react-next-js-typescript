@@ -1,0 +1,7 @@
+const ACTIONS = {
+  CLEAR_ITEMS: 'CLEAR_ITEMS',
+  RESET_ITEMS: 'RESET_ITEMS',
+  REMOVE_ITEM: 'REMOVE_ITEM',
+}
+
+export default ACTIONS

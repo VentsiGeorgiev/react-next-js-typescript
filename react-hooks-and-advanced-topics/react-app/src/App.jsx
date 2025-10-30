@@ -21,6 +21,7 @@ import FetchUserData from './hooks-tutorial/04-custom-hook/02-fetch-data'
 import NavbarC from './hooks-tutorial/05-context-api/02-context-api/Navbar'
 import Navbar from './hooks-tutorial/05-context-api/01-prop-drilling/Navbar'
 import NavbarCh from './hooks-tutorial/05-context-api/03-context-api custom-hook/Navbar'
+import ReducerBasics from './hooks-tutorial/06-useReducer/ReducerBasics'
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
 
       {/* <Navbar /> */}
       {/* <NavbarC /> */}
-      <NavbarCh />
+      {/* <NavbarCh /> */}
+      <ReducerBasics />
     </>
   )
 }
