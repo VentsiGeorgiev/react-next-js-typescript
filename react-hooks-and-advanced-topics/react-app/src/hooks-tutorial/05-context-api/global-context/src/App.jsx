@@ -10,5 +10,4 @@ function App() {
     </>
   )
 }
-// https://www.youtube.com/watch?v=i-xHQCGa2xY
 export default App
