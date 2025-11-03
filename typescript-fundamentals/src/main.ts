@@ -6,6 +6,7 @@ import './01-type-anotationsl.ts'
 import './02-union-and-any.ts'
 import './03-arrays-objects.ts'
 import './04-functions-params-functions-returns.ts'
+import './05-objects-as-params.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
