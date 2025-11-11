@@ -1,4 +1,4 @@
-import Component from './starter/03-state'
+import Component from './starter/04-events'
 
 function App() {
   return (
@@ -12,6 +12,9 @@ function App() {
       </Component> */}
 
       {/* './starter/03-state' */}
+      {/* <Component /> */}
+
+      {/* './starter/04-events' */}
       <Component />
     </main>
   )
