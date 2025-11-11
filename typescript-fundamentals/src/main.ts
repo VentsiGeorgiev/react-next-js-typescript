@@ -9,7 +9,8 @@ import { setupCounter } from './counter.ts'
 // import './05-objects-as-params.ts'
 // import './06-alias-accertion-types.ts'
 // import './07-interface-fundamentals.ts'
-import './08-interface-advanced.ts'
+// import './08-interface-advanced.ts'
+import './12-fetch-data.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
